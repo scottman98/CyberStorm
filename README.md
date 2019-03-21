@@ -1,2 +1,2 @@
 # CyberStorm
-Repository for Team TBD in CYEN 301
+Repository for Team Phoenicia in CYEN 301 and CSC 442
