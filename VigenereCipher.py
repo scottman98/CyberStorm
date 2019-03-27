@@ -39,8 +39,7 @@ def renderMessage(key, cipher, mode):
 			if index == len(key):
 				index = 0
 		else:
-			translated.append(char)
-	#This needs fixing!		
+			translated.append(char)	
 	sequence = "".join(translated)
 	#print sequence
 	return sequence
