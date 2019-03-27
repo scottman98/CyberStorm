@@ -1,15 +1,19 @@
+#VigenereCipher.py by Group 2 (Team Phoenicia)
+
 import sys
 
 LETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
 def GetInput(input):
-	print input
+	#print input
 	return input
 
 def encryption(key, cipher):
-	renderMessage(key, cipher, mode)
+	sequence = renderMessage(key, cipher, mode)
+	return sequence
 def decryption(key, cipher):
-	renderMessage(key, cipher, mode)
+	sequence = renderMessage(key, cipher, mode)
+	return sequence
 
 def renderMessage(key, cipher, mode):
 	translated = []
@@ -36,9 +40,10 @@ def renderMessage(key, cipher, mode):
 				index = 0
 		else:
 			translated.append(char)
-
-	print translated
-	return translated
+	#This needs fixing!		
+	sequence = "".join(translated)
+	#print sequence
+	return sequence
 
 
 ##MAIN##
